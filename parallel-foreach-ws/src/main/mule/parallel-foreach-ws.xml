@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<parallel-foreach doc:name="Parallel For Each" doc:id="be707d9a-0a5e-43f2-a881-965184bc2cbf" >
 			<set-variable value="#[payload]" doc:name="Vars" doc:id="321f65c5-ef12-495e-818c-744ea6d79d00" variableName='Var'/>
 		</parallel-foreach>
-		<logger level="INFO" doc:name="Logger" doc:id="1d019bac-caf9-42c7-a368-5fa0b33a89c9" message="#[payload]"/>
+		<logger level="INFO" doc:name="Payload" doc:id="1d019bac-caf9-42c7-a368-5fa0b33a89c9" message="#[payload]"/>
 	</flow>
 </mule>
